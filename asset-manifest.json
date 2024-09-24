@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/MunKyungMan/movie_app/static/css/main.38f2ed78.css",
-    "main.js": "/MunKyungMan/movie_app/static/js/main.11699071.js",
-    "index.html": "/MunKyungMan/movie_app/index.html",
-    "main.38f2ed78.css.map": "/MunKyungMan/movie_app/static/css/main.38f2ed78.css.map",
-    "main.11699071.js.map": "/MunKyungMan/movie_app/static/js/main.11699071.js.map"
+    "main.css": "/movie_app/static/css/main.38f2ed78.css",
+    "main.js": "/movie_app/static/js/main.11699071.js",
+    "index.html": "/movie_app/index.html",
+    "main.38f2ed78.css.map": "/movie_app/static/css/main.38f2ed78.css.map",
+    "main.11699071.js.map": "/movie_app/static/js/main.11699071.js.map"
   },
   "entrypoints": [
     "static/css/main.38f2ed78.css",
