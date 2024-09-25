@@ -8,6 +8,7 @@ class Home extends React.Component {
     isLoading: true,
     movies: [],
   };
+
   getMovies = async () => {
     const {
       data: {
@@ -18,15 +19,18 @@ class Home extends React.Component {
     );
     this.setState({ movies, isLoading: false });
   };
+
   componentDidMount() {
     this.getMovies();
   }
+
   render() {
     const { isLoading, movies } = this.state;
     return (
       <section className="container">
         {isLoading ? (
           <div className="loader">
+            <div className="spinner"></div>
             <span className="loader__text">Loading...</span>
           </div>
         ) : (
